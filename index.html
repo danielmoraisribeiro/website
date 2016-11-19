@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" datatoggle="collapse" data-target="#navbar" aria-expanded="false" ariacontrols="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Grupo Santa Ana</a>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#overview">Overview</a></li>
+						<li><a href="#features">Features</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</nav>
+
+			<style>
+				h1 {color: rgb(160, 4, 4)}				
+				p {color:maroon;}
+				p {background-color: lightblue}
+				p {font-size: 30px}
+				body {background-color: lightblue } 
+				/*body background IMAGE*/
+				img {height: 100%; width: 100%;}
+				#small_list {background-color: lightgreen}
+				#small_list2 {background-color: lightblue}
+				p.priority {font-size: 15px;background-color: white; font-weight: bold; }  /* you are creating a class and later on you can call on it to design a specific part of your site in that specific style. when you put p in front, you are saying that only the p designated in that class should be eddited in that manner*/
+
+			</style>
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<title>Santa Ana Agropecuaria</title> <!-- This is in the tab of your browser!-->
+	
+	<!-- This part is the central part after the TITLE - it is called JUMBOTRON -->
+	<div class="container">
+		<div class="jumbotron">
+			<h1>A great title!</h1>
+			<p class="lead">Some description.
+			</p>
+			<p>
+				<a class="btn btn-lg btn-success" href="#"role="button">See more</a>
+			</p>
+		</div>
+	</div>
+
+	</head>
+	<body>
+		
+		<h1>Grupo Fazenda Santa Ana.</h1> <!-- This is a Header-->
+
+		<div class="container">
+		
+			<div class="row">
+				
+				<div class="col-md-4">
+					<p>Propriedades <strong>do</strong> Grupo.</p> <!-- This is a paragraph (with a edition)-->
+					<p class="priority">List Title for Itens</p>
+					<ul id="small_list" style="list-style-type:square">
+						<li>Fazenda Boa Vista</li>
+						<li>Fazenda Santa Paola</li>
+						<li>Fazenda Santa Ana</li>
+					</ul>
+				</div>
+
+				<div class="col-md-4">	
+					<p>Atividades <strong>do</strong> Grupo.</p> <!-- This is a paragraph (with a edition)-->
+					<p class="priority">List Title for Itens</p>
+					<ul id="small_list2" style="list-style-type:square">
+						<li>Soja</li>
+						<li>Gado - Engorda</li>
+						<li>Gado Criacao</li>
+					</ul>
+				</div>
+				
+				<div class="col-md-4">
+					<p>Atividades <strong>do</strong> Grupo.</p> <!-- This is a paragraph (with a edition)-->
+					<p class="priority">List Title for Itens</p>
+					<ul id="small_list" style="list-style-type:square">
+						<li>Soja</li>
+						<li>Gado - Engorda</li>
+						<li>Gado Criacao</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-8">
+					<img src="Fazenda.jpg">
+					<!--  This is the code if you want to take the image directly from a site from the internet
+		 			<img src="http://geology.com/world/world-map.gif"> -->
+
+		 			<!--  This is the code if you want to take the image from the folder that you saved the site. if you want to get a picture from a different folder in the computer, you need to type the full address -->
+
+				</div>
+
+				<div class="col-md-2">
+					<img src="Faz2.jpg"><br><br>
+					<img src="Faz4.jpg"><br><br>
+					<img src="Faz5.jpg"><br><br>
+					<img src="Faz9.jpg"><br>
+				</div>
+
+				<div class="col-md-2">
+					<img src="Faz3.jpg"><br><br>
+					<img src="Faz6.jpg"><br><br>
+					<img src="Faz7.jpg"><br><br>
+					<img src="Faz8.jpg"><br>
+				</div>
+			
+			</div>
+		
+		</div>
+
+
+
+
+
+		
+		<a href="http://www.google.com">I link to Google</a><br>
+		<a href="http://www.google.com" target=blank>
+		I will opne Google in a new tab
+		</a>
+
+
+		<div>
+			<h4>Product Features</h4>
+			<p>
+				Our operations are <span style="color:red">state-of-the-art</span></p>
+
+		</div>
+	
+	<p = id="MyParagraph"></p>
+	<button type="button"onclick="document.getElementByIs('MyParagraph').innerHTML = 'Hello World'">Click</button>
+
+
+
+
+
+
+
+
+
+	
+	</body>
+</html>
